@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+@media (max-width: 900px) {
+  .board {
+    margin: 0;
+    width: 0vw;
+    padding: 0;
+    display: grid;
+    grid-template-areas: "no1 no2 no3 no4 no5 no6";
+  }
+}
+@media (min-width: 900px) {
+  .board {
+    width: 0vw;
+    margin: 0;
+    padding-left: 50px;
+    display: grid;
+    grid-template-areas: "no1 no2 no3 no4 no5 no6";
+  }
+}

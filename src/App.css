@@ -1,0 +1,64 @@
+.gameScreen {
+  background-color: darkblue;
+  padding-bottom: 50px;
+}
+.topWrapper {
+  display: flex;
+  color: white;
+  justify-content: space-between;
+  width: 70vw;
+  padding: 10px;
+  align-items: center;
+  padding-left: 50px;
+  text-align: center;
+}
+.headerWrapper {
+  background-color: blue;
+  vertical-align: middle;
+  padding: 30px 0;
+}
+.header {
+  color: white;
+  text-align: center;
+  font-size: 2.5em;
+  margin: 0;
+}
+@media (min-width: 900px) {
+  .difficulty {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 900px) {
+  .topWrapper {
+    padding-left: 0;
+  }
+  .difficulty {
+    padding-left: 0;
+  }
+}
+button {
+  padding-right: 2vw;
+  padding-left: 2vw;
+  height: 50px;
+  width: auto;
+  margin: 30px 0px;
+  background-color: grey;
+  border: 1px solid grey;
+  border-radius: 40px;
+  cursor: pointer;
+  letter-spacing: 2px;
+  font-weight: bold;
+  color: white;
+  font-size: 1.2em;
+  transition: 0.2s;
+}
+button:hover {
+  transform: scale(1.2);
+}
+input {
+  width: 200px;
+}
+h2 {
+  color: white;
+}

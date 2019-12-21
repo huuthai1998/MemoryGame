@@ -1,0 +1,26 @@
+.tile-wrapper {
+  display: inline-block;
+  padding-top: 1vh;
+}
+.tile-wrapper.flipped .flipState {
+  transform: rotateY(180deg);
+}
+
+.flipState {
+  transition: 0.5s;
+  transform-style: preserve-3d;
+  position: relative;
+  cursor: pointer;
+}
+
+.front,
+.back {
+  backface-visibility: hidden;
+}
+.back {
+  z-index: 2;
+  transform: rotateY(0deg);
+}
+.front {
+  transform: rotateY(180deg);
+}
