@@ -9,7 +9,7 @@ The game is able to:
 - Allow player to start a new game anytime
 - The board is scrambled every new game.
 
-# Prequsite
+# Prequesite
 - Git and NodeJS must be installed
 
 # Getting Started
