@@ -82,7 +82,7 @@ export default function App() {
   //Preload image for smoother transition
   const preloadImg = () => {
     tiles.map(tile => {
-      const src = `/asset/${tile.type}.png`;
+      const src = require(`./asset/${tile.type}.png`);
       new Image().src = src;
     });
   };
