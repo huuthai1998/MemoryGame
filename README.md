@@ -14,7 +14,7 @@ The game is able to:
 
 # Getting Started
 1. Clone the repository or only the build folder on your computer. 
-2. Open the terminal and run these commands:
+2. Open the terminal in the MemoryGame folder then run these commands:
 
 ```
 npm install -g serve
@@ -22,6 +22,7 @@ serve -s build
 ```
 
 The local host address will be copied to clipboard
+
 3. Go the the copied address on any browser and enjoy!
 
 # How to play
